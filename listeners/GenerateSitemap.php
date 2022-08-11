@@ -2,16 +2,16 @@
 
 namespace App\Listeners;
 
-use Illuminate\Support\Str;
 use samdark\sitemap\Sitemap;
 use TightenCo\Jigsaw\Jigsaw;
+use Illuminate\Support\Str;
 
 class GenerateSitemap
 {
     protected $exclude = [
         '/assets/*',
         '*/favicon.ico',
-        '*/404'
+        '*/404*'
     ];
 
     public function handle(Jigsaw $jigsaw)
