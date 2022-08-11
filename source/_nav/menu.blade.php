@@ -16,9 +16,6 @@
 		<a title="{{ $page->siteName }} Contact" href="/contact"
         class="ml-6 text-gray-700 hover:text-blue-600 {{ $page->isActive('/contact') ? 'active text-blue-600' : '' }}">
         O Site
-    </a>
-
-		{{--  --}}
 		<button class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center" type="button" data-dropdown-toggle="dropdown">A Líder <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
 
     <!-- Dropdown menu -->
@@ -39,5 +36,4 @@
         </li>
         </ul>
     </div>
-		{{--  --}}
 </nav>
